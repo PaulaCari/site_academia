@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="escrevo uma descrição do site que estou fazendo">
+  <meta name="keywords" content="postos chaves do site HTML, CSS, JavaScript">
+  <meta name="author" content="Paula">
+
+  <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- para creação dos slides -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <!-- <link rel="stylesheet" href="./src/css/variaveis.css">  -->
+  <link rel="stylesheet" href="./src/css/style.css">
+  <!-- <link rel="stylesheet" href="./src/css/responsivo.css"> -->
+
+  <title>Academia</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html" class="logo"><span>SEJA</span>FIT</a>
+
+    <div id="menu-btn" class="fa-solid fa-bars"></div>
+
+    <nav class="navbar">
+      <a href="#home">Início</a>
+      <a href="#about">Sobre</a>
+      <a href="#features">Nosos Serviços</a>
+      <a href="#princig">Preços</a>
+      <a href="#trainers">Treinadores</a>
+      <a href="#blogs">Blogs</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide slide" style="background: url(./src/img/home2.jpg) no repeat;">
+            <div class="content">
+              <span>Seja forte, seja fit</span>
+              <h3>Torne-se mais forte do que suas disculpas.</h3>
+              <a href="#" class="btn">Iniciar</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide" style="background: url(./src/img/home1.jpg) no repeat;">
+            <div class="content">
+              <span>Seja forte, seja fit</span>
+              <h3>Torne-se mais forte do que suas disculpas.</h3>
+              <a href="#" class="btn">Iniciar</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide" style="background: url(./src/img/musculosa1.jpg) no repeat;">
+            <div class="content">
+              <span>Seja forte, seja fit</span>
+              <h3>Torne-se mais forte do que suas disculpas.</h3>
+              <a href="#" class="btn">Iniciar</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+
+    <section id="about">
+      <div class="imagem">
+        <img src="./src/img/sobre.jpeg" alt="home malhando" title="home malhando">
+      </div>
+
+      <div class="content">
+        <span>Sobre Nós</span>
+        <h3 class="title">Caa dia é um achance de se tornar melhor!</h3>
+        <p>Escreva Algo Sobre</p>
+
+        <div class="box-container">
+          <div class="box">
+            <h3><i class="fa-solid fa-check"></i>Corpo e Mente</h3>
+            <p>Trene seu corpo e sua mente será treinada</p>
+          </div>
+
+          <div class="box">
+            <h3><i class="fa-solid fa-check"></i>Vida Saudável</h3>
+            <p>Conquiste uma vida Saudável</p>
+          </div>
+
+          <div class="box">
+            <h3><i class="fa-solid fa-check"></i>Estrategias</h3>
+            <p>Estraégias para seu trenamento</p>
+          </div>
+
+          <div class="box">
+            <h3><i class="fa-solid fa-check"></i>Treino</h3>
+            <p>Treine seu corpo fortemente</p>
+          </div>
+        </div>
+        <a href="#" class="btn">Ler Mais</a>
+      </div>
+    </section>
+
+
+    <section id="features">
+    </section>
+    <h1 class="heading"><span>O que oferecemos</span></h1>
+
+    <div class="box-continer">
+      <div class="box">
+        <div class="image">
+          <img src="./src/img/casal na academia.jpg" alt="casal na academia" title="casal na academia">
+        </div>
+        <div class="content">
+          <img src="https://i.postimg.cc/J46txFdD/icon-1.png" alt="">
+          <h3>Musculação</h3>
+          <p>Falar Mais sobre Musculação</p>
+          <a href="#" class="btn">Ler Mais</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./src/img/man-2604149_1920.jpg" alt="" title="">
+        </div>
+        <div class="content">
+          <img src="https://i.postimg.cc/5N3KRBwF/icon-2.png" alt="">
+          <h3>Homens</h3>
+          <p>Falar Mais sobre Musculação</p>
+          <a href="#" class="btn">Ler Mais</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="./src/img/musculosa1.jpg" alt="" title="">
+        </div>
+        <div class="content">
+          <img src="https://i.postimg.cc/pTjkP83x/icon-3.png" alt="">
+          <h3>Muçlheres</h3>
+          <p>Falar Mais sobre Musculação</p>
+          <a href="#" class="btn">Ler Mais</a>
+        </div>
+      </div>
+    </div>
+
+
+    <section id="princig">
+      <div class="information">
+        <span>Plano de Preços</span>
+        <h3>Plano de preços acessível para você</h3>
+        <p>Falar um poco sobre isso</p>
+        <p><i class="fas fa-check"></i>Exercícios de Cardio</p>
+        <p><i class="fas fa-check"></i>Levantamento de Peso</p>
+        <p><i class="fas fa-check"></i>Planos Alimentares</p>
+        <p><i class="fas fa-check"></i>Acompanhamento de resultados</p>
+        <a href="#" class="btn">Todos os valores</a>
+      </div>
+
+      <div class="plan-basic">
+        <h3>Plano Básico</h3>
+        <div class="price"><span>R$</span>90<span>/mês</span></div>
+        <div class="list">
+          <p><i class="fas fa-check"></i>Treinador</p>
+          <p><i class="fas fa-check"></i>Exercícios de Cardio</p>
+          <p><i class="fas fa-check"></i>Levantametno de Peso</p>
+          <p><i class="fas fa-check"></i>Plano Alimentares</p>
+          <p><i class="fas fa-check"></i>Acompanhamento de resultados</p>
+        </div>
+        <a href="#" class="btn">Quero!</a>
+      </div>
+
+      <div class="plan">
+        <h3>Plano Premium</h3>
+        <div class="price"><span>R$</span>110<span>/mês</span></div>
+        
+        <div class="list">
+          <p><i class="fas fa-check"></i>Treinador</p>
+          <p><i class="fas fa-check"></i>Exercícios de Cardio</p>
+          <p><i class="fas fa-check"></i>Levantametno de Peso</p>
+          <p><i class="fas fa-check"></i>Plano Alimentares</p>
+          <p><i class="fas fa-check"></i>Acompanhamento de resultados</p>
+        </div>
+        <a href="#" class="btn">Quero!</a>
+      </div>
+
+
+
+    </section>
+
+
+    <section id="trainers">
+
+    </section>
+
+
+    <section id="blogs">
+
+    </section>
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <script src="./src/js/main.js"></script>
+</body>
+
+</html>
