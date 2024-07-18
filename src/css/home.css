@@ -1,0 +1,44 @@
+#home{
+    
+    padding: 0;
+    margin-top: 5rem;
+}
+
+.home .slide{
+    
+    display: flex;
+    align-items: center;
+    min-height: 90vh;
+    background-size: cover !important;
+    background-position: center !important;
+    padding: 2rem 9%;
+}
+
+.home .slide .content{
+    width: 60rem;
+}
+.home .slide .content span{
+   
+    display: block;
+    font-size: 2rem;
+    color: var(--title-color);
+}
+
+.home .slide .content h3{
+  
+    font-size: 5rem;
+    padding: 1rem 0;
+    color: var(--tex-color);
+}
+
+/*class de swipwer para criar as bolinhas do site*/
+.swiper-pagination-bullet {
+    height: 2rem;
+    width: 2rem;
+    background: #fff;
+    border-radius: 0;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: rgb(238, 125, 5);
+}
