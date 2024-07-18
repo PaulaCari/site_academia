@@ -1,0 +1,81 @@
+.about{
+   
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8rem;
+}
+
+.about .imagem{
+   position: relative;
+   flex: 1 1 42rem;
+}
+
+.about .imagem::before,
+.about .imagem::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    background-color: var(--title-color);
+    width: 15rem;
+    height: 15rem;
+}
+.about .imagem::before{
+    top: 0;
+    left: 0;
+}
+.about .imagem::after{
+    bottom: 0;
+    right: 0;
+}
+.about .imagem img{
+    width: 100%;
+    padding: 2rem;
+}
+
+.about .content{
+
+    flex: 1 1 42rem;
+}
+
+
+.about .content span{
+    color: var(--title-color);
+    font-size: 2rem;
+}
+
+.about .content .title{
+    color: var(--tex-color);
+    font-size: 4rem;
+    margin-top: 0.5rem;
+}
+
+.about .content p{
+    color: #aaa;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.about .content .box-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.about .content .box-container .box{
+    flex: 1 1 20rem; /*para as caixas se redimencionar*/
+}
+
+.about .content .box-container .box h3{
+    font-size: 2rem;
+    color: var(--tex-color);
+}
+
+.about .content .box-container .box h3 i{
+    color: var(--title-color);
+    padding-right: 1.5rem;
+}
+
