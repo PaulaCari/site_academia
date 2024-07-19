@@ -1,0 +1,71 @@
+.princig{
+    background-color: greenyellow;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    gap: 1.5rem;
+}
+
+.princig .information span{
+    font-size: 2rem;
+    color: var(--title-color);
+}
+
+.princig .information h3{
+    font-size: 4rem;
+    padding-top: .5rem;
+    color: var(--tex-color);
+}
+
+.princig .information p{
+    font-size: 1.4rem;
+    color: #aaa;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.princig .information p i{
+    padding-right: 1rem;
+    color: var(--title-color);
+}
+
+.princig .plan{
+    text-align: center;
+    padding: 2rem;
+}
+
+.princig .plan.basic{
+    background: linear-gradient(130deg, #111 93%,transparent 90%);
+}
+
+.princig .plan h3{
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    color: var(--tex-color);
+}
+
+.princig .plan .price{
+    font-size: 5rem;
+    font-weight: bolder;
+    color: var(--title-color);
+}
+
+.princig .plan .price span{
+    color: var(--tex-color);
+    font-size: 2rem;
+}
+
+.princig .plan .list{
+    padding: 1rem 0;
+}
+
+.princig .plan .list p{
+    font-size: 1.4rem;
+    color: #aaa;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.princig .plan .list p i{
+    color: var(--title-color);
+    padding-right: 1rem;
+}
