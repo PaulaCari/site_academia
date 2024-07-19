@@ -1,0 +1,26 @@
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(../img/FITNESS\ CENTER\ _\ GYM.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;   
+}
+
+.banner span{
+    font-size: 2rem;
+    color: var(--title-color);
+}
+
+.banner h3{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: var(--title-color);
+    padding-top: 1rem;
+}
+
+.banner p{
+    font-size: 1.5rem;
+    color: #aaa;
+    line-height: 2;
+}
