@@ -1,0 +1,55 @@
+.blogs .slide{
+    background: #111;
+    margin-bottom: 7rem;
+}
+
+.blogs .slide:hover .imagem img{
+    transform: scale(1.1);
+}
+
+.blogs .slide .imagem{
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.blogs .slide .imagem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blogs .slide .content{
+    padding: 2rem;
+}
+
+.blogs .slide .content .link{
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.blogs .slide .content .link a{
+    color: var(--title-color);
+}
+
+.blogs .slide .content .link a:hover{
+    color: var(--tex-color);
+}
+
+.blogs .slide .content .link span{
+    color: var(--tex-color);
+    padding: 0 1rem;
+}
+
+.blogs .slide .content h3{
+    font-size: 2rem;
+    color: var(--tex-color);
+    line-height: 1.5;
+}
+
+.blogs .slide .content p{
+    font-size: 1.5rem;
+    color: #aaa;
+    line-height: 2;
+    padding: 1rem 0;
+}
