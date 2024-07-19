@@ -1,0 +1,75 @@
+.review{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.review .information{
+    flex: 1 1 35rem;
+}
+
+.review .information span{
+    font-size: 2rem;
+    color: var(--title-color);
+}
+
+.review .information h3{
+    font-size: 3rem;
+    color: var(--tex-color);
+    padding-top: 1rem;
+}
+
+.review .information p{
+    font-size: 1.5rem;
+    color: #aaa;
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.review .review-slider{
+    flex: 1 1 60rem;
+}
+
+.review .review-slider .slide{
+    background: linear-gradient(130deg, #111 93%, transparent 90%);
+    padding: 2rem 3rem;
+}
+
+.review .review-slider .slide p{
+    font-size: 1.5rem;
+    color: #aaa;
+    line-height: 2;
+}
+
+.review .review-slider .slide .user{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.review .review-slider .slide .user img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.review .review-slider .slide .user h3{
+    font-size: 2rem;
+    color: var(--tex-color);
+}
+
+.review .review-slider .slide .user span{
+    font-size: 2rem;
+    color: var(--title-color);
+}
+
+.review .review-slider .slide .user i{
+    font-size: 5rem;
+    color: var(--title-color);
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
