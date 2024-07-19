@@ -1,7 +1,8 @@
 .features .box-container{
-    background-color: yellow;
+    background-color: rgb(250, 185, 6);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr)); */
     gap: 1.5rem;
 }
 .features .box-container .box{

@@ -1,5 +1,5 @@
 .blogs .slide{
-    background: #111;
+    background: #222;
     margin-bottom: 7rem;
 }
 
@@ -39,6 +39,10 @@
 .blogs .slide .content .link span{
     color: var(--tex-color);
     padding: 0 1rem;
+}
+
+.blogs .slide .content .link .btn{
+    color: var(--tex-color);
 }
 
 .blogs .slide .content h3{

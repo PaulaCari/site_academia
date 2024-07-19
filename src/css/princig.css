@@ -1,5 +1,4 @@
 .princig{
-    background-color: greenyellow;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
     gap: 1.5rem;
@@ -34,7 +33,11 @@
 }
 
 .princig .plan.basic{
-    background: linear-gradient(130deg, #111 93%,transparent 90%);
+    background: linear-gradient(130deg, #333 93%,transparent 90%);
+}
+
+.princig .plan.premium{
+    background: linear-gradient(130deg, #333 93%,transparent 90%);
 }
 
 .princig .plan h3{

@@ -1,0 +1,71 @@
+footer .box-container{
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+footer .box-container .box h3{
+
+    font-size: 2.2rem;
+    color: var(--tex-color);
+    padding: 1rem 1rem;
+}
+
+footer .box-container .box .links{
+    font-size: 1..5rem;
+    display: block;
+    color: #aaa;
+    padding: 1rem 3rem;
+}
+
+footer .box-container .box .links:hover{
+    color: var(--title-color);
+}
+
+footer .box-container .box p{
+    font-size: 1.5rem;
+    color: #aaa;
+    padding: 1rem 3rem;
+}
+
+footer .box-container .box p i{
+    color: var(--title-color);
+    padding-right: 5rem;
+}
+
+footer .box-container .box .share{
+    padding: 1rem 3rem;
+}
+
+
+footer .box-container .box .share a{
+    width: 4.5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.7rem;
+    color: var(--tex-color);
+    background: #111;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 5rem;
+}
+footer .box-container .box .share a:hover{
+    background-color: var(--title-color);
+}
+
+footer .box-container .box form{
+    margin-left: 2rem;
+}
+footer .box-container .box form .email{
+    font-size: 1.5rem;
+    color: var(--tex-color);
+    padding: 1.2rem;
+    background: #111;
+    margin-bottom: 1rem;
+    /* text-transform: none; */
+    width: 100%;
+}
+
+
+
