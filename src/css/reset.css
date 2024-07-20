@@ -19,7 +19,7 @@ html{
     font-size: 62,5%;
     scroll-behavior: smooth;
     scroll-padding-top: 5rem;
-   /* overflow: hidden; esconde a barra de rolagem*/
+    overflow-x: hidden; /*esconde a barra de rolagem*/
 }
 
 html::-webkit-scrollbar{ /*todos os tipos de navegadores*/
@@ -29,7 +29,7 @@ html::-webkit-scrollbar-track{/*o que fica abaixo da barra*/
     background-color: #000; 
 }
 html::-webkit-scrollbar-thumb{
-    background-color: var(--title-color);
+    background-color: var(--title-color);/*cor da barra de rodagem*/
 }
 
 body{
